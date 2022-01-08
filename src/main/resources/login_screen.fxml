@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="184.0" layoutY="146.0" text="Username" />
+            <Label layoutX="186.0" layoutY="210.0" text="Password" />
+            <TextField fx:id="usernameEntry" layoutX="300.0" layoutY="142.0" promptText="Enter username" />
+            <PasswordField fx:id="passwordEntry" layoutX="300.0" layoutY="206.0" promptText="Enter password" />
+            <Button layoutX="274.0" layoutY="301.0" mnemonicParsing="false" onAction="#Login" text="Login" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
